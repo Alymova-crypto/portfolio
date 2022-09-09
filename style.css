@@ -87,10 +87,23 @@ p {
   text-decoration: underline;
 }
 @media (max-width: 600px) {
-  h1,
-  h2,
-  h3 {
-    text-align: center;
-    color: blue;
+  p {
+    font-size: 14px;}
+    h1 {
+      font-size: 56px;
+      text-align: center;
+       color: #6610f2;
+      
+    }
+    h2 {
+      font-size: 24px;
+      text-align: center;
+      color: #6610f2;
+    }
+    h3 {
+      font-size: 14px;
+      text-align: center;
+      color: #6610f2;
+    }
   }
 }
